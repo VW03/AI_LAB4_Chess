@@ -32,6 +32,9 @@ Once installed, you can run your chess engine using `fiveaichess.bat` (Windows) 
 
 ```bash
 python -m fiveaichess.engines.example_engine
+
+./fiveaichess.sh
+.\fiveaichess.bat
 ```
 
 > **Note**: On Linux, make sure your script is executable with `chmod +x fiveaichess.sh`

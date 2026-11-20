@@ -1,3 +1,8 @@
+# todo
+reinforcement learning -> te veel states, en ze zijn niet allemaal even common
+
+gekozen heuristic: todo
+
 # 5AI Labs: Chess Project
 
 In this lab you will build an artificially intelligent chess agent.

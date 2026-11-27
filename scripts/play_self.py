@@ -1,5 +1,6 @@
 import chess
 
+from fiveaichess.agents.alpha_beta_agent import AlphaBetaAgent
 from fiveaichess.agents.example_agent import ExampleAgent
 from fiveaichess.utilities.example_utility import ExampleUtility
 
@@ -11,7 +12,7 @@ def play_self():
     board = chess.Board()
 
     # create the white and black players
-    white_player = ExampleAgent(ExampleUtility(), 5.0)
+    white_player = AlphaBetaAgent(ExampleUtility(), 5.0)
     white_player.name = "White Player"
     black_player = ExampleAgent(ExampleUtility(), 5.0)
     black_player.name = "Black Player"
